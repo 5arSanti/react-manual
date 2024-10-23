@@ -1,0 +1,53 @@
+.main-container {
+    box-sizing: border-box;
+
+    width: 100%;
+    padding: 100px 200px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main-container h1 {
+    font-size: 28px;
+
+    font-weight: bold;
+}
+
+.green-value {
+    padding: 5px;
+    background-color: green;
+    color: white;
+}
+
+.red-value {
+    padding: 5px;
+    background-color: red;
+    color: white;
+}
+
+.main-button {
+    color: black;
+
+    background-color: transparent;
+    border: 1px solid black;
+
+    padding: 20px;
+
+    transition: all 0.3s ease;
+
+    cursor: pointer;
+}
+
+.hover-green-value:hover {
+    background-color: green;
+    color: white;
+}
+
+.hover-red-value:hover {
+    background-color: red;
+    color: white;
+}

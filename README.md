@@ -1,0 +1,1 @@
+Repository for "React manual" project
